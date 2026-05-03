@@ -34,4 +34,4 @@ https://github.com/HarveyXYZ/OpenNOD/tree/main
 
 ## Thesis
 Submitted in partial fulfillment of the MSc Data Science & Society
-Tilburg University, 2025
+Tilburg University, 2026
