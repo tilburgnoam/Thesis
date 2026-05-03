@@ -41,6 +41,7 @@ Tilburg University, 2026
 
 
 # Repository Structure
+
 Thesis/
 │
 ├── README.md
@@ -78,7 +79,7 @@ If you use this code, please cite:
   title={Fine-grained Aspect-Based Sentiment Analysis of the Hamas-Israel Conflict on X},
   author={Noam Ladani},
   school={Tilburg University},
-  year={2025},
-  url={https://github.com/[your-username]/Thesis}
+  year={2026},
+  url={https://github.com/tilburgnoam/Thesis}
 }
 ```
