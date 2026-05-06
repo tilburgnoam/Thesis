@@ -41,28 +41,16 @@ Tilburg University, 2026
 
 
 # Repository Structure
-
 Thesis/
-│
-├── README.md
-│
-├── preprocessing_EDA/
-│   └── preprocessing_eda.ipynb
-│
-├── ML/
-│   └── ml_models.ipynb
-│
-├── DL/
-│   └── dl_models.ipynb
-│
-└── Transformers/
-    ├── BERT/
-    │   └── bert.ipynb
-    ├── RoBERTa/
-    │   └── roberta.ipynb
-    └── DeBERTa/
-        └── deberta.ipynb
-
+├── Preprocessing_EDA.ipynb
+├── Thesis_Machine_Learning.py
+├── Thesis_Deep_Learning.py
+├── Thesis_BERT.py
+├── Thesis_RoBERTa.py
+├── Thesis_DeBERTa-v3.py
+├── LICENSE
+├── .gitignore
+└── README.md
 
 
 
