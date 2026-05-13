@@ -263,6 +263,7 @@ Getting the best model with the best seed
 
 # @title Split again (same as before)
 # Re-split using best seed and model , adjust this accordingly
+# Explicitly use LR seed 42 for entity evaluation
 np.random.seed(42)
 
 X_train, X_temp, y_train, y_temp = train_test_split(
@@ -383,7 +384,7 @@ for (entity, sentiment), text in selected_texts.items():
     fig = exp.as_pyplot_figure(label=exp.top_labels[0])
     plt.title(f"{entity.upper()} - {sentiment}")
     plt.tight_layout()
-    plt.savefig(f"LIME_SVM__iloc0{entity}_{sentiment}.png", dpi=300, bbox_inches='tight')
+    plt.savefig(f"LIME_LR__iloc0{entity}_{sentiment}.png", dpi=300, bbox_inches='tight')
     plt.close()
 
 # @title LIME - Individual Examples (LR) -  iloc1
@@ -423,7 +424,7 @@ for (entity, sentiment), text in selected_texts.items():
     fig = exp.as_pyplot_figure(label=exp.top_labels[0])
     plt.title(f"{entity.upper()} - {sentiment}")
     plt.tight_layout()
-    plt.savefig(f"LIME_SVM_{entity}_{sentiment}.png", dpi=300, bbox_inches='tight')
+    plt.savefig(f"LIME_LR_{entity}_{sentiment}.png", dpi=300, bbox_inches='tight')
     plt.close()
 
 # @title LIME - Individual Examples (LR) -  iloc2
@@ -463,7 +464,7 @@ for (entity, sentiment), text in selected_texts.items():
     fig = exp.as_pyplot_figure(label=exp.top_labels[0])
     plt.title(f"{entity.upper()} - {sentiment}")
     plt.tight_layout()
-    plt.savefig(f"LIME_SVM_{entity}_{sentiment}.png", dpi=300, bbox_inches='tight')
+    plt.savefig(f"LIME_LR_{entity}_{sentiment}.png", dpi=300, bbox_inches='tight')
     plt.close()
 
 # @title LIME - Individual Examples (LR)
@@ -498,7 +499,7 @@ for (entity, sentiment), text in selected_texts.items():
     fig = exp.as_pyplot_figure(label=exp.top_labels[0])
     plt.title(f"{entity.upper()} - {sentiment}")
     plt.tight_layout()
-    plt.savefig(f"LIME_SVM_{entity}_{sentiment}.png", dpi=300, bbox_inches='tight')
+    plt.savefig(f"LIME_LR_{entity}_{sentiment}.png", dpi=300, bbox_inches='tight')
     plt.close()
 
 # @title Heatmap top 10 words per entity and sentiment.
